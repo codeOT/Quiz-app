@@ -55,6 +55,14 @@ const quizData = [
         d: "Wo na anybody jare",
         correct: "a",
     },
+    {
+        question: "Most likely to die cos of TALKING?",
+        a: "Ehe Wahala",
+        b: "Hmmmmmm",
+        c: "Make una choose anything o",
+        d: "I dont know",
+        correct: "a",
+    },
      {
         question: "Did you like dis quiz",
         a: "Yes boss",
@@ -73,9 +81,9 @@ const c_text = document.getElementById('c_text')
 const d_text = document.getElementById('d_text')
 const submitBtn = document.getElementById('submit')
 let currentQuiz = 0
-let score = 2
-const emoji = 0x10000
-console.log(emoji)
+let score = 3
+// const emoji = 0x10000
+// console.log(emoji)
 loadQuiz()
 function loadQuiz() {
     deselectAnswers()
